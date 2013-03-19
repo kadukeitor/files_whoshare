@@ -1,0 +1,14 @@
+#whoshare p {
+	float: left;
+	padding-top: 0.8em;
+	padding-left: 1.2em;
+}
+
+#whoshare img  {
+	float: left;
+	width: 48px;
+	height: 48px;
+	background: transparent url('apps/files_whoshare/img/pattern.png');
+	border: 1px solid #D8D8D8;
+	padding: 5px;
+}

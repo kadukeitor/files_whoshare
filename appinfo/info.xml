@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<info>
+	<id>files_whoshare</id>
+	<name>Who Share</name>
+	<description>Show who share the files.</description>
+	<licence>AGPL</licence>
+	<author>Jorge Rafael Garcia Ramos</author>
+	<version>0.6</version>
+	<require>4.93</require>
+</info>
