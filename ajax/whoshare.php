@@ -38,7 +38,7 @@ OCP\JSON::success(array('data' => array( 'user' => getOwner( $path ) , 'photo' =
         $result = $query->execute(array($target))->fetchAll();
         
         if (count($result) > 0) {
-            return $result[0]['uid_owner'];
+            return \OCP\User::getDisplayName($result[0]['uid_owner']);
         }
         
         $target = dirname($target);
@@ -53,7 +53,7 @@ OCP\JSON::success(array('data' => array( 'user' => getOwner( $path ) , 'photo' =
         }
         
         if (count($result) > 0) {
-            return $result[0]['uid_owner'];
+            return \OCP\User::getDisplayName($result[0]['uid_owner']);
         } else {
             return false;
         }
