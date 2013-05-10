@@ -1,6 +1,5 @@
-
 $(document).ready(function(){
-    if (typeof FileActions !== 'undefined') {
+    if (typeof FileActions !== 'undefined' && $('#dir').length>0) {
         
 
         if ( $('#dir').val().substring(1,7) == 'Shared' ) {
